@@ -38,7 +38,6 @@ userBtn.onclick = function(){
 			}
 
 			document.getElementById('users').innerHTML = output;
-			//console.log(this.responseText);
 		};
 
 xhr.open('GET', 'https://jsonplaceholder.typicode.com/users', true);
