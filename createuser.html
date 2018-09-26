@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		
+		label{font-weight: bold;}
+		input{
+			display: block;
+			padding: 5px 10px;
+			color: #2d2d2d;
+			border: 1px solid #999;
+			margin-bottom: 10px;
+			height: 40px;
+			width: 275px;
+		}
+
+		button{
+			border-radius: 3px;
+			background-color: green;
+			color: #fff;
+			padding: 10px;
+			font-size: 18px;
+		}
+
+
+	</style>
+
+	<title>AJAX| Add a User</title>
+</head>
+<body>
+	<h1>User Creation Portal</h1>
+	<form>
+		<label for="fullName">Full Name: <input type="text" name="fullName" id="fullName" placeholder="ex: Michael Jordan" /></label>
+
+		<label for="username">Username: <input type="text" name="username" id="username" placeholder="ex: mj2019" /></label>
+
+		<label for="age">Age: <input type="number" name="age" id="age" placeholder="ex: 40" /></label>
+
+		<button type="submit">Add User</button>
+	</form>
+
+	<hr />
+	<div id="result"></div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/createuser.js"></script>
+</body>
+</html>
